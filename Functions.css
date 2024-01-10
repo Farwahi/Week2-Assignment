@@ -1,0 +1,204 @@
+body {
+    background-image: url(math.jpg);
+  }
+  .topbar-main{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    top: 0;
+    position: sticky;
+    background-color: black;
+
+}
+.topbar-1{
+    margin-left: 50px;
+}
+.topbar-2 ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+.topbar-2-list a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+.topbar-2 li{
+   margin-right: 40px;
+   font-size: 16px;
+}
+.topbar-2-list li{
+    position: relative;
+    padding-bottom: 8px;
+    padding-top: 10px;
+}
+.topbar-2-list li::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0%;
+    background-color: #FFBD39;
+    transition: all ease 0.5s;
+  
+}
+.topbar-2-list li:hover::after{
+    width: 100%;
+}
+
+.welcome{
+    text-align: left;
+    color: red;
+    margin-left: 140px;
+}
+h3 {
+    text-align: right;
+    margin-right: 200px;
+
+}
+h1 {
+    text-align: right;
+    margin-top: 20px;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+}
+
+.slideshow-container {
+    max-width: 250px;
+    position: relative;
+    margin: auto;
+  }
+
+  .mySlides {
+    display: none;
+    
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    border: 50%;
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: fit-content;
+    align-items: normal;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    border-color: black;
+    padding: 20px;
+    background-color: rgb(146, 196, 146);
+    margin-top: 40px;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: white;
+    color: black;
+  }
+  .header {
+	color:black;
+	text-align: center;
+    font-size: 18px;
+    
+  }
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+

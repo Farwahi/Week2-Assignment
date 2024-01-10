@@ -1,0 +1,102 @@
+body {
+    background-image: url("math.jpg");
+  }
+  .topbar-main{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    top: 0;
+    position: sticky;
+    background-color: black;
+
+}
+.topbar-1{
+    margin-left: 50px;
+}
+.topbar-2 ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+}
+.topbar-2-list a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+.topbar-2 li{
+   margin-right: 40px;
+   font-size: 16px;
+}
+.topbar-2-list li{
+    position: relative;
+    /* padding-bottom: 8px;
+    padding-top: 10px; */
+}
+.topbar-2-list li::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0%;
+    background-color: #FFBD39;
+    transition: all ease 0.5s;
+  
+}
+.topbar-2-list li:hover::after{
+    width: 100%;
+}
+.form-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+  }
+  
+.form {
+    width: 15%;
+    padding: 20px;
+    background-color: rgb(140, 193, 140);
+    border-radius: 10px;
+  }
+  
+label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"],
+  input[type="text"]
+  {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  h1{
+    text-align: center;
+  }
+  p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 20px;
+    background-color: white;
+  }
+  
+
+  
+  

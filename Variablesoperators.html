@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meal Logger</title>
+  <link rel="stylesheet" type="text/css" href="Variablesoperators.css">
+</head>
+<body>
+    <div class="topbar-2">
+        <ul class="topbar-2-list">
+            <li><a href="Objects.html">Objects</a></li>
+            <li><a href="Dotnotation.html">Dot Notation</a></li>
+            <li><a href="Functions.html">Functions</a></li>
+            <li><a href="IfElseSwitch.html">If Else & Switch</a></li>
+            <li><a href="LoopsArrays.html">Loops & Arrays</a></li>
+            <li><a href="Variablesoperators.html">Variables & Operators</a></li>
+        </ul>
+    </div>
+    <h1>My Diet Plan</h1>
+    <div class="box">
+        <div class="calendar">
+          <img src="diet chart.jpeg" alt="Clock fruits photo">
+          <div id="calendar"></div>
+        </div>
+      
+        <div class="meal-form">
+          <form>
+            <h2>Add a Meal</h2>
+            <label for="mealType">Meal Type:</label>
+            <select id="mealType">
+              <option value="breakfast">Breakfast</option><br>
+              <option value="lunch">Lunch</option><br>
+              <option value="dinner">Dinner</option><br>
+            </select>
+            <br>
+            <label for="mealName">Meal Name:</label>
+            <input type="text" id="mealName" name="mealName">
+            <br>
+            <input type="button" value="Add Meal" onclick="addMeal()">
+          </form>
+        </div>
+      
+        <div class="meal">
+          <h2>Today's Meals</h2>
+          <ul>
+            <li>Breakfast: <span id="todayBreakfast"></span></li>
+            <li>Lunch: <span id="todayLunch"></span></li>
+            <li>Dinner: <span id="todayDinner"></span></li>
+          </ul>
+        </div>
+      
+        <div class="meal">
+          <h2>Tomorrow's Meals</h2>
+          <ul>
+            <li>Breakfast: <span id="tomorrowBreakfast"></span></li>
+            <li>Lunch: <span id="tomorrowLunch"></span></li>
+            <li>Dinner: <span id="tomorrowDinner"></span></li>
+          </ul>
+        </div>
+      </div>
+   
+  <script src="Variablesoperators.js"></script>
+</body>
+</html>

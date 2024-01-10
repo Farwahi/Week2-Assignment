@@ -1,0 +1,151 @@
+body {
+    background-image: url("math.jpg");
+  }
+  .topbar-main{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    top: 0;
+    position: sticky;
+    background-color: black;
+
+}
+.topbar-1{
+    margin-left: 50px;
+}
+.topbar-2 ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+}
+.topbar-2-list a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+.topbar-2 li{
+   margin-right: 40px;
+   font-size: 16px;
+}
+.topbar-2-list li{
+    position: relative;
+    /* padding-bottom: 8px;
+    padding-top: 10px; */
+}
+.topbar-2-list li::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0%;
+    background-color: #FFBD39;
+    transition: all ease 0.5s;
+  
+}
+.topbar-2-list li:hover::after{
+    width: 100%;
+}
+  h1 {
+    color: blue;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  h2 {
+    color:red;
+    text-align: left;
+  }
+  .heading{
+    color: #3e8e41;
+  }
+  .form-container {
+    margin: 0 auto;
+    max-width: 500px;
+    float: left;
+    padding: 20px;
+    background-color: rgb(140, 193, 140);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  #console-output {
+    float: left;
+    width: 60%;
+    margin: auto 0;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    white-space: pre-wrap;
+  }
+  
+  #my-photo {
+    float:right;
+    margin-left: 20px;
+    width: 75px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px #888888;
+  }
+  #Quran {
+    float:right;
+    margin-top: 150px;
+    margin-right: 50px;
+    width: 600px;
+    height: 300px;
+    border:1px solid white;
+    border-radius: 0%;
+    box-shadow: 5px 5px 5px #888888;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

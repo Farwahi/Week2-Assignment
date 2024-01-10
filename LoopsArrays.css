@@ -1,0 +1,61 @@
+body {
+    background-image: url("math.jpg");
+  }
+  .topbar-main{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    top: 0;
+    position: sticky;
+    background-color: black;
+
+}
+.topbar-1{
+    margin-left: 50px;
+}
+.topbar-2 ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+}
+.topbar-2-list a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+.topbar-2 li{
+   margin-right: 40px;
+   font-size: 16px;
+}
+.topbar-2-list li{
+    position: relative;
+    /* padding-bottom: 8px;
+    padding-top: 10px; */
+}
+.topbar-2-list li::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0%;
+    background-color: #FFBD39;
+    transition: all ease 0.5s;
+  
+}
+.topbar-2-list li:hover::after{
+    width: 100%;
+}
+canvas {
+    border: 1px solid black;
+    background-color: black;
+    width: 500px;
+    height: 300px;
+    margin-left: 400px;
+  }
+  h1{
+    text-align: center;
+  }
