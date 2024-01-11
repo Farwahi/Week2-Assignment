@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Web Page</title>
+  <link rel="stylesheet" type="text/css" href="Objects.css">
+</head>
+<body>
+    <div class="topbar-2">
+        <ul class="topbar-2-list">
+            <li><a href="Objects.html">Objects</a></li>
+            <li><a href="Dotnotation.html">Dot Notation</a></li>
+            <li><a href="Functions.html">Functions</a></li>
+            <li><a href="IfElseSwitch.html">If Else & Switch</a></li>
+            <li><a href="LoopsArrays.html">Loops & Arrays</a></li>
+            <li><a href="Variablesoperators.html">Variables & Operators</a></li>
+        </ul>
+    </div>
+    <div>
+    <img src="quran.jpg" alt="Quran" id="Quran">
+    </div>
+  <div class="form-container">
+    <img src="pic1.png" alt="Photo of Syeda" id="my-photo">
+    <h1>Personal Information</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" value="Syeda"><br>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" value="43"><br>
+
+      <label for="song1">Favorite Song 1:</label>
+      <input type="text" id="song1" name="song1" value="Al-Kauthar"><br>
+
+      <label for="song2">Favorite Song 2:</label>
+      <input type="text" id="song2" name="song2" value="Al-Falaq"><br>
+
+      <label for="song3">Favorite Song 3:</label>
+      <input type="text" id="song3" name="song3" value="Al-Fatihah"><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  <div>
+    <h1 class="heading">My Fav Songs</h1>
+    <label for="song-list"></label>
+    <ul id="song-list">
+  <ul>
+    <h2>Surah 1</h2>
+    <li><h4>Click & Play</h4>
+        <a href="Al-Kauthar.mp3" onclick="playAudio('Al-Kauthar.mp3')">Al-Kausar</a></li>
+    <h2>Surah 2</h2>
+    <li><h4>Click & Play</h4>
+        <a href="Al-Fatihah.mp3" onclick="playAudio('Al-Fatihah.mp3')">Al-Fatihah</a></li>
+    <h2>Surah 3</h2>
+    <li><h4>Click & Play</h4>
+        <a href="Al-Falaq.mp3" onclick="playAudio('Al-Falaq.mp3')">Al-Falaq</a></li>
+  </ul>
+  <audio id="my-audio"></audio> 
+   
+</div>
+<div>
+  <h3>Console Output:</h3>
+  <pre id="console-output"></pre>
+</div>
+  <script src="Objects.js"></script>
+</body>
+</html>
